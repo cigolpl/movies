@@ -15,11 +15,14 @@ search:
     genres: 
       size: 15
       title: Genres
-    actors: 
+    country: 
       size: 10
+      title: Countries
+    actors: 
+      size: 5
       title: Actors
 data:
-  type: file
-  path: imdb.json
-  #type: url
-  #url: https://storage.googleapis.com/imdb-list/imdb.json
+  #type: file
+  #path: imdb.json
+  type: url
+  url: https://storage.googleapis.com/imdb-list/imdb.json
