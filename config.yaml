@@ -12,6 +12,9 @@ search:
     tags: 
       size: 15
       title: Tags
+    genres: 
+      size: 15
+      title: Genres
     actors: 
       size: 10
       title: Actors
