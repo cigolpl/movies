@@ -1,0 +1,52 @@
+{
+  "name": "itemsjs-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "postinstall": "bower cache clean --allow-root && bower install --allow-root"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itemsapi/itemsjs-server.git"
+  },
+  "author": "Matt Rzepa",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/itemsapi/itemsjs-server/issues"
+  },
+  "homepage": "https://github.com/itemsapi/itemsjs-server#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "bower": "^1.8.0",
+    "express": "^4.15.2",
+    "itemsjs": "^1.0.6",
+    "js-yaml": "^3.8.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "nconf": "^0.8.4",
+    "nunjucks": "^3.0.0",
+    "request": "^2.81.0",
+    "slug": "^0.9.1",
+    "urijs": "^1.18.10"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-data": "^1.2.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-minify": "0.0.15",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-nunjucks": "^3.0.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-shell": "^0.6.3"
+  }
+}
