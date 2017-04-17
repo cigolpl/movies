@@ -14,8 +14,11 @@ search:
       size: 15
       title: Tags
     genres: 
-      size: 10
+      size: 15
       title: Genres
+    country: 
+      size: 10
+      title: Countries
     actors: 
       size: 10
       title: Actors
