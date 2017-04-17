@@ -3,7 +3,8 @@
 =======
 # Curated list
 
-Build nice client-side curated list by editing yaml file
+Build nice client-side curated list by editing yaml file.
+See demo for movies - https://imdb.netlify.com/.
 
 ## Features
 
@@ -22,7 +23,16 @@ npm install
 Edit `config.yaml`:
 
 ```yaml
+website:
+  title: List of movies
+  layout: 
+    name: table
+    columns: 
+      - image
+      - name
+      - tags
 search:
+  searchableFields: ['name', 'tags', 'genres', 'actors']
   aggregations:
     tags: 
       size: 15
@@ -45,7 +55,7 @@ npm start
 
 Result:
 
-![Curated list of movies](github/movies.jpg)
+![](https://media.giphy.com/media/xUPGceuCLz8yFbu4Ew/giphy.gif)
 
 [See another examples](examples.md)
 
